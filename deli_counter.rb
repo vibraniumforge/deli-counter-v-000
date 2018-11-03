@@ -5,7 +5,7 @@ def line(array)
     puts "The line is currently empty."
   else
     myAr=[]
-      array.each_with_index do |item, index| myar.push("#{index}. #{item}")
+      array.each_with_index do |item, index| mySr.push("#{index}. #{item}")
       end
       puts "The line is currently: #{myAr}"
   end

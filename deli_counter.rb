@@ -7,6 +7,7 @@ def line(array)
     myar=[]
       array.each_with_index do |item, index| myar.push("#{index}. #{name}")
       end
+      puts "The line is currently: #{myAr}"
   end
 end
 

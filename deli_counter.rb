@@ -8,7 +8,7 @@ def line(array)
     #   counter=0
     #   puts "The line is currently: #{counter+1}. #{array[counter] }"
     #   counter+=
-      array.each_with_index.map do |item, index|  "The line is currently: #{ index+1}. #{item}"
+      array.each_with_index.map do |item, index| return "The line is currently: #{ index+1}. #{item}"
         # binding.pry
       end
   end

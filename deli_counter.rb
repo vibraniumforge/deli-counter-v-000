@@ -8,10 +8,11 @@ def line(array)
     #   counter=0
     #   puts "The line is currently: #{counter+1}. #{array[counter] }"
     #   counter+=
-    binding.pry
+  
       array.each_with_index.map do |item, index| puts "The line is currently: #{ index+1}. #{item}"
       end
   end
+    binding.pry
 end
 
 def take_a_number(array, name)
